@@ -4,25 +4,5 @@
 @import './section/section';
 
 body {
-  margin: 0;
-}
-
-.image-grid {
-  --gap: 16px;
-  --num-cols: 4;
-  --row-height: 300px;
-
-box-sizing: border-box;
-padding: var(--gap);
-}
-
-display: grid;
-grid-template-columns: repeat(var(--num-cols), 1fr);
-grid-auto-rows: var(--row-height);
-gap: var(--gap);
-
-.image-grid > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  background-color: hsl(300, 1%, 15%);
 }
