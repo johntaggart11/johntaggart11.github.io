@@ -34,7 +34,6 @@ document.addEventListener("DOMContentLoaded", function() {
     var mobileNav = document.getElementById('mobile-nav');
 
     mobileMenuIcon.addEventListener('click', function() {
-        // Toggle the visibility of the mobile nav when the icon is clicked
         mobileNav.style.display = (mobileNav.style.display === 'block') ? 'none' : 'block';
     });
 });
