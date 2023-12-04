@@ -169,16 +169,10 @@ button {
     .gallery {
         max-width: 100%;
     }
-      .aboutcontainer img{
-        max-width: 100%;
-    }
 }
   
 @media (min-width: 1441px) {
     .gallery {
-        max-width: 100%;
-    }
-      .aboutcontainer img{
         max-width: 100%;
     }
 }
